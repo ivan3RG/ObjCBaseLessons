@@ -30,21 +30,21 @@ int main(int argc, const char * argv[]) {
         scanf("%d", &numberOfVariant);
         switch(numberOfVariant) {
             case 1:
-                NSLog(@"%s, %d", "first + second = ", first + second);
+                NSLog(@"first + second = %i", first + second);
                 break;
             case 2:
-                NSLog(@"%s, %d", "first - second = ", first - second);
+                NSLog(@"first - second = %i", first - second);
                 break;
             case 3:
-                NSLog(@"%s, %d", "first * second = ", first * second);
+                NSLog(@"first - second = %i", first * second);
                 break;
             case 4:
-                NSLog(@"%s, %d", "first + second = ", first / second);
+                NSLog(@"first - second = %i", first / second);
                 break;
             case 5:
                 printf("input third value");
                 scanf("%d", &third);
-                NSLog(@"%s, %d", "(first + second + third)/3 = ", (first + second + third)/3);
+                NSLog(@"(first + second + third)/3 = %i", (first + second + third)/3);
                 break;
             case 6:
                 printf("exit");
